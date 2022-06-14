@@ -1,1 +1,1 @@
-alert('Hello World'); // alert popup
+alert('Hello World'); // alert message
