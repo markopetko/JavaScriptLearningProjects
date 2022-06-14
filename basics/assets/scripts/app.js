@@ -1,8 +1,8 @@
 let currentResult = 0;
 
-currentResult = currentResult + 10; // Add two numbers
+currentResult = (currentResult + 10) * 3 / 2 - 1; // other mathematical examples
 
 outputResult(currentResult, '');
 
-// Result = 10
+// Result = 14
 
