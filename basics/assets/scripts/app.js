@@ -1,18 +1,20 @@
 /* 
-    Numbers - 2, -3, 3.5426
-   
-    Strings - text characters
+    More about using constants
 */
 
-let currentResult = 0;
+const defaultResult = 0;
+
+let currentResult = defaultResult;
 
 currentResult = (currentResult + 10) * 3 / 2 - 1;
 
-let calculationDescription = '(' + currentResult + ' + 10) * 3 / 2 - 1';
+let calculationDescription = '(' + defaultResult + ' + 10) * 3 / 2 - 1'; // using constant inside string
 
 outputResult(currentResult, calculationDescription);
 
 /* Output result:
-    (14 + 10) * 3 / 2 - 1
+
+    (0 + 10) * 3 / 2 - 1
+
     Result: 14
 */
