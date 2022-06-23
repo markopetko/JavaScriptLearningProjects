@@ -1,5 +1,5 @@
 /* 
-    More about using strings - 3
+    More about using strings - 4
 */
 
 const defaultResult = 0;
@@ -10,14 +10,13 @@ currentResult = (currentResult + 10) * 3 / 2 - 1;
 
 let calculationDescription = `( ${defaultResult} + 10) * 3 / 2 - 1`;
 
-let errorMessage = 'An error \n occurred!'; // line break using \n
+let errorMessage = 'An error \' occurred!'; // adding ' as part of a string
 
 outputResult(currentResult, errorMessage);
 
 /* Output result:
 
-    An error 
-    occurred!
+    An error ' occurred!
 
     Result: 14
 */
