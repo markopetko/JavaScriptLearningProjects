@@ -1,22 +1,14 @@
 /* 
-    More about using strings - 5
+    Function
 */
 
 const defaultResult = 0;
-
 let currentResult = defaultResult;
 
-currentResult = (currentResult + 10) * 3 / 2 - 1;
+function add(num1, num2) {
+    const result = num1 + num2;
+    alert(`The result is ${result}`);
+}
 
-let calculationDescription = `( ${defaultResult} + 10) * 3 / 2 - 1`;
-
-let errorMessage = 'An error \\ occurred!'; // adding \ as part of a string
-
-outputResult(currentResult, errorMessage);
-
-/* Output result:
-
-    An error \ occurred!
-
-    Result: 14
-*/
+add(2, 3); // alert  = 5
+add(5, 16); // alert = 21
