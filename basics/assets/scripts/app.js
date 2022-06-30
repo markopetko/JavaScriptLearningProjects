@@ -1,19 +1,16 @@
 /* 
-    Returning Values
+    Executing functions indirectly - basic calculator - 1
 */
-
 const defaultResult = 0;
 let currentResult = defaultResult;
 
-function add(num1, num2) {
-    const result = num1 + num2;
-    return result;
+function add() {
+    currentResult = currentResult + userInput.value;
+    outputResult(currentResult, '');
 }
 
-currentResult = add(2, 3);
-
-outputResult(currentResult, '');
+addBtn.addEventListener('click', add); // ('event', which event is called)
 
 /* Output result:
-    Result: 5
+    If you input 5, result is: 05
 */
